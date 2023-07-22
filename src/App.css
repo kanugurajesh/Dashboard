@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Inter', sans-serif;
 }
 
 #notification {
@@ -25,22 +26,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     margin-bottom: 20px;
 }
 
 #badge h1 {
-    font-size: 1.5rem;
-    font-weight: 520;
+    font-size: 1.3rem;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
 }
 
 #badge div {
     line-height: 1.5;
 }
 
-#badge img {
-    width: 80px;
-    height: 80px;
-    border-radius: 60%;
-    margin-right: 10px;
+#badge div p {
+    font-size: 0.8rem;
+    word-spacing: 1px;
+    letter-spacing: 1px;
 }
