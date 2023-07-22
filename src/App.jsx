@@ -4,8 +4,12 @@ import { BellOutlined } from '@ant-design/icons'
 function App() {
   return (
     <>
-      <BellOutlined />
-      <div>hi i am rajesh</div>
+      <header>
+        <div>
+          <BellOutlined style={{fontSize:'30px'}}/>
+        </div>
+
+      </header>
     </>
   )
 }
