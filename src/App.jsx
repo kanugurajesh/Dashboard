@@ -15,7 +15,7 @@ function App() {
     <>
       <header>
         <Div>
-          <BellOutlined style={{fontSize:'30px'}}/>
+          <BellOutlined style={{fontSize:'30px',float:'right'}}/>
         </Div>
       </header>
     </>
