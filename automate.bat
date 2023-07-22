@@ -14,6 +14,6 @@ set "commit_message=%~1"
 git commit -m "%commit_message%"
 
 REM Push to the remote repository (Assuming you have set the remote URL as 'origin')
-git push -u origin master
+git push -u origin main
 
 echo Files committed and pushed to the remote repository successfully.
