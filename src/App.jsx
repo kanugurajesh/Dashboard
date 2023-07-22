@@ -5,8 +5,8 @@ import './App.css'
 function App() {
   return (
     <header>
-      <div>
-        <BellOutlined style={{fontSize:'26px'}}/>
+      <div id='header'>
+        <BellOutlined style={{fontSize:'25px'}} id='notification'/>
       </div>
     </header>
   )

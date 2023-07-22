@@ -8,6 +8,13 @@
     padding: 25px;
     width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#notification {
+    position: absolute;
+    top: 25px;
+    right: 25px;
 }
