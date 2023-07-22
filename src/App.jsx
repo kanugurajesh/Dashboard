@@ -1,12 +1,22 @@
 import { useState } from 'react'
-import { BellOutlined } from '@ant-design/icons'
+import { BellOutlined, AntDesignOutlined} from '@ant-design/icons'
+import { Avatar } from '@mui/material'
 import './App.css'
 
 function App() {
   return (
     <header>
       <div id='header'>
-        <BellOutlined style={{fontSize:'25px'}} id='notification'/>
+        <div>
+        <BellOutlined style = {{fontSize: '26px'}} id='notification'/>
+        </div>
+        <div id="badge">
+          <Avatar alt="Remy Sharp" src="https://ik.imagekit.io/hbzknb1hm/rajesh1.jpeg?updatedAt=1687880887870" style={{width:'80px',height:'80px'}}/>
+          <div>
+            <h1>Hi Rajesh</h1>
+            <p>Here's what's happening with your projects today</p>
+          </div>
+        </div>
       </div>
     </header>
   )

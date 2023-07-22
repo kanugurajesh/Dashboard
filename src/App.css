@@ -17,4 +17,30 @@
     position: absolute;
     top: 25px;
     right: 25px;
+    margin-bottom: 20px;
+}
+
+#badge {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#badge h1 {
+    font-size: 1.5rem;
+    font-weight: 520;
+}
+
+#badge div {
+    line-height: 1.5;
+}
+
+#badge img {
+    width: 80px;
+    height: 80px;
+    border-radius: 60%;
+    margin-right: 10px;
 }
