@@ -1,11 +1,12 @@
 import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import './App.css'
+import { BellOutlined } from '@ant-design/icons'
 
 function App() {
   return (
-    <div>hi i am rajesh</div>
+    <>
+      <BellOutlined />
+      <div>hi i am rajesh</div>
+    </>
   )
 }
 
