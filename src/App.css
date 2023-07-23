@@ -137,3 +137,25 @@ footer img {
     font-weight: 700;
     opacity: 0.5;
 }
+
+#transaction {
+    background-color: rgba(192, 192, 192, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 25px 0;
+}
+
+.transaction {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(192, 192, 192, 0.4);
+}
+
+.transaction h4:first-child {
+    opacity: 0.5;
+}
