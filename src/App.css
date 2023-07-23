@@ -217,6 +217,7 @@ main section {
 }
 
 #main-section-3 {
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     gap: 30px;
