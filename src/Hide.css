@@ -4,6 +4,7 @@
 }
 
 #main-2 {
+    width: 100vw;
     position: absolute;
     top:70px;
     display:flex;
