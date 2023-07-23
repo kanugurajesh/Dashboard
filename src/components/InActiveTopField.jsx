@@ -1,6 +1,5 @@
 import { CaretDownOutlined} from '@ant-design/icons';
 import { Progress, Space } from 'antd';
-
 import '../Hide.css';
 import { green } from '@mui/material/colors';
 function App() {
@@ -31,6 +30,13 @@ function App() {
             <Progress type="circle" percent={98} strokeWidth={8} size={90} strokeColor={'green'}/>
             <Progress type="circle" percent={80} strokeWidth={8} size={90} strokeColor={'green'}/>
           </Space>
+        </section>
+        <section id="main-inactive-3">
+        <h3>Retirement Strategy</h3>
+        <div>
+            <h4>Employee Contribution</h4>
+            <Slider defaultValue={30}/>
+        </div>
         </section>
       </main>
     </>

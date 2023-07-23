@@ -3,7 +3,6 @@ import { BellOutlined, CloseOutlined} from '@ant-design/icons'
 import TopField from './components/TopField'
 import ActiveFooter from './components/ActiveFooter'
 import InActiveTopField from './components/InActiveTopField'
-import InActiveFooter from './components/InActiveFooter'
 import './App.css'
 
 function App() {
@@ -26,7 +25,6 @@ function App() {
         <>
           <CloseOutlined onClick={handleClick} style={{fontSize:'30px'}} id='notification'/>
           <InActiveTopField />
-          <InActiveFooter />
         </>
        }
     </>

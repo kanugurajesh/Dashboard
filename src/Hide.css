@@ -9,6 +9,8 @@
     display:flex;
     flex-direction: column;
     gap: 0;
+    overflow-y: scroll;
+    height: 80vh;
 }
 
 #main-inactive h4{
