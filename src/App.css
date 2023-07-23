@@ -222,6 +222,14 @@ main section {
     gap: 30px;
 }
 
+#main-section-3 h3 {
+    font-size: 1.1rem;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
 .main-section-3-div div {
     width: 20px;
     height:10px;
