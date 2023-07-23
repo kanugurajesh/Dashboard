@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BellOutlined, AntDesignOutlined, HomeOutlined} from '@ant-design/icons'
+import { BellOutlined, CloseOutlined} from '@ant-design/icons'
 import { Avatar } from '@mui/material'
 import './App.css'
 import BarField from './components/BarField'
@@ -13,7 +13,7 @@ function App() {
       <header>
         <div id='header'>
           <div>
-          {active ? <AntDesignOutlined onClick={() => setActive(!active)} style={{fontSize:'30px',color:'#fff'}}/> : <HomeOutlined onClick={() => setActive(!active)} style={{fontSize:'30px',color:'#fff'}}/>}
+          {active ? <BellOutlined onClick={() => setActive(!active)} style={{fontSize:'30px',color:'#fff'}}/> : <CloseOutlined onClick={() => setActive(!active)} style={{fontSize:'30px',color:'#fff'}}/>}
           </div>
           <div id="badge">
             <Avatar alt="Remy Sharp" src="https://ik.imagekit.io/hbzknb1hm/rajesh1.jpeg?updatedAt=1687880887870" style={{width:'90px',height:'90px'}}/>
