@@ -1,11 +1,52 @@
+import { CaretDownOutlined} from '@ant-design/icons';
+import { Progress, Space } from 'antd';
+
+import '../Hide.css';
 function App() {
   return (
     <>
-        <div>
-            rajesh
-        </div>
+      <main id="main-2">
+        <section id="main-inactive">
+          <h4>How do I compare to my peers ?</h4>
+          <h5>These numbers represent current goal achievement</h5>
+        </section>
+        <section id="main-inactive-1">
+          <div className="main-inactive-1">
+            <h4>Age:</h4>
+            <h4 style={{opacity:'0.5'}}>Under 30<CaretDownOutlined style={{scale:'0.6'}}/></h4>
+          </div>
+          <div className="main-inactive-1">
+            <h4>Salary:</h4>
+            <h4 style={{opacity:'0.5'}}>K 20 - K 30<CaretDownOutlined style={{scale:'0.6'}}/></h4>
+          </div>
+          <div className="main-inactive-1">
+            <h4>Gender: </h4>
+            <h4 style={{opacity:'0.5'}}>Male<CaretDownOutlined style={{scale:'0.6'}}/></h4>
+          </div>
+        </section>
+        <section id="main-inactive-2">
+          <Space wrap>
+            <Progress type="circle" percent={75} />
+            <Progress type="circle" percent={75} />
+            <Progress type="circle" percent={75} />
+          </Space>
+        </section>
+      </main>
     </>
   )
 }
 
 export default App;
+
+// import React from 'react';
+// import { Progress, Space } from 'antd';
+
+// const App: React.FC = () => (
+//   <Space wrap>
+    
+//     <Progress type="circle" percent={70} status="exception" />
+//     <Progress type="circle" percent={100} />
+//   </Space>
+// );
+
+// export default App;

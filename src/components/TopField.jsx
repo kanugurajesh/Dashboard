@@ -1,6 +1,5 @@
 import React from 'react'
 import { Avatar } from '@mui/material'
-// import './App.css'
 import BarField from './BarField'
 
 function App() {

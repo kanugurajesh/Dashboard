@@ -1,0 +1,40 @@
+.main-inactive-1 {
+    display:flex;
+    gap: 20px;
+}
+
+#main-2 {
+    position: absolute;
+    top:70px;
+    display:flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+#main-inactive h4{
+    line-height: 1.5;
+    font-size: 1rem;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+#main-inactive h5 {
+    margin-top: 2px;
+    line-height: 1.5;
+    font-size: 0.8rem;
+    opacity: 0.5;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+#main-inactive-1 {
+    padding-top: 0;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-inactive-1 {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 12px 0;
+}
