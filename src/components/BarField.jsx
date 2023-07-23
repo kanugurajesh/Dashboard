@@ -44,17 +44,17 @@ const data = {
   labels:["20", "35", "40", "45", "50", "55", "60"],
   datasets: [
     {
-      label: "Product A",
+      label: "Employer",
       data: [40,50,80,120,200,220,250],
       backgroundColor: "#000080",
     },
     {
-      label:'Product B',
+      label:'Employee',
       data:[50,60,90,140,220,250,270],
       backgroundColor:'#0047AB'
     },
      {
-      label:'Product C',
+      label:'Total Intrest',
       data:[60,80,100,170,250,270,300],
       backgroundColor:'#4169E1'
     }

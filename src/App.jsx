@@ -81,17 +81,17 @@ function App() {
           <h3>Contributions Overtime</h3>
           <div>
             <div className='main-section-3-div'>
-              <div></div>
+              <div style={{backgroundColor:'#000080'}}></div>
               <h5>Employer</h5>
               <h4>$73,500</h4>
             </div>
             <div className='main-section-3-div'>
-              <div style={{opacity:'0.7'}}></div>
+              <div style={{backgroundColor:'#0047AB'}}></div>
               <h5>Employee</h5>
               <h4>$52,500</h4>
             </div>
             <div className='main-section-3-div'>
-              <div style={{opacity:'0.4'}}></div>
+              <div style={{backgroundClip:'#4169E1'}}></div>
               <h5>Total Intrest</h5>
               <h4>$244,313</h4>
             </div>
