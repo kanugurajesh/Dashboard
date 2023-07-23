@@ -4,6 +4,7 @@ import { Avatar } from '@mui/material'
 import './App.css'
 
 function App() {
+  const [index, setIndex] = useState(0)
   return (
     <>
       <header>
@@ -40,19 +41,19 @@ function App() {
       </header>
       <main></main>
       <footer>
-        <div className='violet footer-element'>
+        <div className={`footer-element ${index === 0 ? 'violet': ''}`} onClick={() => setIndex(0)}>
           <img src="https://ik.imagekit.io/hbzknb1hm/home.png?updatedAt=1690089551208" alt="" />
         </div>
-        <div className='footer-element'>
+        <div className={`footer-element ${index === 1 ? 'violet': ''}`} onClick={() => setIndex(1)}>
           <img src="https://ik.imagekit.io/hbzknb1hm/letter1.png?updatedAt=1690089551603" alt="" />
         </div>
-        <div className='footer-element'>
+        <div className={`footer-element ${index === 2 ? 'violet': ''}`} onClick={() => setIndex(2)}>
         <img src="https://ik.imagekit.io/hbzknb1hm/letter2.png?updatedAt=1690089551592" alt="" />
         </div>
-        <div className='footer-element'>
+        <div className={`footer-element ${index === 3 ? 'violet': ''}`} onClick={() => setIndex(3)}>
           <img src="https://ik.imagekit.io/hbzknb1hm/user.png?updatedAt=1690089551598" alt="" />
         </div>
-        <div className='footer-element'>
+        <div className={`footer-element ${index === 4 ? 'violet': ''}`} onClick={() => setIndex(4)}>
           <img src="https://ik.imagekit.io/hbzknb1hm/search.png?updatedAt=1690089551593" alt="" />
         </div>
       </footer>
