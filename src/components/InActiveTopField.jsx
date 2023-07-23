@@ -26,9 +26,9 @@ function App() {
         </section>
         <section id="main-inactive-2">
           <Space wrap>
-            <Progress type="circle" percent={75} strokeWidth={8} size={100}/>
-            <Progress type="circle" percent={98} strokeWidth={8} size={100}/>
-            <Progress type="circle" percent={80} strokeWidth={8} size={100}/>
+            <Progress type="circle" percent={75} strokeWidth={8} size={90}/>
+            <Progress type="circle" percent={98} strokeWidth={8} size={90}/>
+            <Progress type="circle" percent={80} strokeWidth={8} size={90}/>
           </Space>
         </section>
       </main>
