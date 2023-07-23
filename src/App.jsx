@@ -6,7 +6,7 @@ import BarField from './components/BarField'
 
 function App() {
   const [index, setIndex] = useState(0)
-  const [active, setActive] = useState(false)
+  const [active, setActive] = useState(true)
   return (
     <>
     <div id="toplayer">
