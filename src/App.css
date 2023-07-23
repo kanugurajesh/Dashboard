@@ -48,11 +48,13 @@
 }
 
 footer {
+    width: 100%;
     position: absolute;
     bottom: 0;
     display: flex;
+    justify-content: space-around;
     gap: 15px;
-    margin: 25px 0;
+    padding:25px;
 }
 
 footer div {
