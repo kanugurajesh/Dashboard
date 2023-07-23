@@ -55,7 +55,7 @@ footer {
     bottom: 0;
     display: flex;
     justify-content: space-between;
-    padding:25px;
+    padding:20px 25px;
 }
 
 footer div {
@@ -264,9 +264,10 @@ main section {
 
 #main-section-4 {
     position: absolute;
-    top: 70px;
+    /* top: 60px; */
+    /* top: 70px; */
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 95%;
     background-color: white;
 }
