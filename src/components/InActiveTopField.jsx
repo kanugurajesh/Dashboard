@@ -25,10 +25,10 @@ function App() {
           </div>
         </section>
         <section id="main-inactive-2">
-          <Space wrap>
-            <Progress type="circle" percent={75} />
-            <Progress type="circle" percent={75} />
-            <Progress type="circle" percent={75} />
+          <Space wrap style={{display:'flex',justifyContent:'space-between'}}>
+            <Progress type="circle" percent={75} strokeWidth={8} size={100}/>
+            <Progress type="circle" percent={98} strokeWidth={8} size={100}/>
+            <Progress type="circle" percent={80} strokeWidth={8} size={100}/>
           </Space>
         </section>
       </main>
@@ -37,16 +37,3 @@ function App() {
 }
 
 export default App;
-
-// import React from 'react';
-// import { Progress, Space } from 'antd';
-
-// const App: React.FC = () => (
-//   <Space wrap>
-    
-//     <Progress type="circle" percent={70} status="exception" />
-//     <Progress type="circle" percent={100} />
-//   </Space>
-// );
-
-// export default App;
