@@ -46,3 +46,27 @@
     word-spacing: 1px;
     letter-spacing: 1px;
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    gap: 15px;
+    margin: 25px 0;
+}
+
+footer div {
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    background-color: #651fff;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+}
