@@ -46,6 +46,9 @@ function App() {
           <h4>Employee Contribution</h4>
           <h4>Intrest Rate</h4>
         </section>
+        <div id='update'>
+              <h5>Update</h5>
+        </div>
       </main>
     </>
   )

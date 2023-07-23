@@ -13,7 +13,6 @@
     flex-direction: column;
     gap: 0;
     overflow-y: scroll;
-    /* height: 80vh; */
     padding: 0;
 }
 
@@ -54,9 +53,20 @@
 #main-inactive-3 {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    background-color: #e0e0e0;
+    gap: 20px;
+    background-color: rgba(204, 204, 204, 0.1); /* 50% opacity (half-transparent) */
     border-top-left-radius: 15%;
     border-top-right-radius: 15%;
     margin-top: 20px;
+}
+
+#update {
+    width: 100vw;
+    height: 60px;
+    background-color: #651fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 1.5px;
 }
