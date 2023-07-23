@@ -159,3 +159,59 @@ footer img {
 .transaction h4:first-child {
     opacity: 0.5;
 }
+
+main {
+    padding: 10px 25px;
+}
+
+main section {
+    padding: 25px;
+}
+
+#main-section-1 h4 {
+    font-size: 1rem;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    color: #651fff;
+}
+
+#main-section-1 h2 {
+    font-size: 1.5rem;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+#main-section-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#main-section-2 h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-section-2 h5 {
+    opacity: 0.5;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+#main-section-2 > div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-section-2 > div:first-of-type {
+    border-bottom: 2px solid rgba(192, 192, 192, 0.4);
+    padding-bottom: 15px;
+}
+
+#main-section-2 > div:nth-of-type(2) div {
+    width: 45%;
+    border-bottom: 2px solid rgba(192, 192, 192, 0.4);
+    padding-bottom: 15px;
+}

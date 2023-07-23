@@ -55,7 +55,31 @@ function App() {
           </div>
         </div>
       </header>
-      <main></main>
+      <main>
+        <section id="main-section-1">
+          <h4>Retirement Income</h4>
+          <h2>Starting Year 2056</h2>
+        </section>
+        <section id='main-section-2'>
+          <div>
+            <h1>$300,000</h1>
+            <h5>My Goal</h5>
+          </div>
+          <div>
+            <div>
+              <h2>59%</h2>
+              <h5>Goal Achieved</h5>
+            </div>
+            <div>
+              <h2>K 300</h2>
+              <h5>Est Monthly Income</h5>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h3>Contributions Overtime</h3>
+        </section>
+      </main>
       </div>
       <footer>
         <div className={`footer-element ${index === 0 ? 'violet': ''}`} onClick={() => setIndex(0)}>
