@@ -211,7 +211,7 @@ main section {
 }
 
 #main-section-2 > div:nth-of-type(2) div {
-    width: 40%;
+    width: 48%;
     border-bottom: 2px solid rgba(192, 192, 192, 0.4);
     padding-bottom: 15px;
 }
