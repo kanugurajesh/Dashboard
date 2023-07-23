@@ -13,7 +13,7 @@ function App() {
       <header>
         <div id='header'>
           <div>
-          {active ? <BellOutlined onClick={() => setActive(!active)} style={{fontSize:'30px',color:'#fff'}} id='notification'/> : <CloseOutlined onClick={() => setActive(!active)} style={{fontSize:'30px',color:'#fff'}} id='notification'/>}
+          {active ? <BellOutlined onClick={() => setActive(!active)} style={{fontSize:'30px'}} id='notification'/> : <CloseOutlined onClick={() => setActive(!active)} style={{fontSize:'30px'}} id='notification'/>}
           </div>
           <div id="badge">
             <Avatar alt="Remy Sharp" src="https://ik.imagekit.io/hbzknb1hm/rajesh1.jpeg?updatedAt=1687880887870" style={{width:'90px',height:'90px'}}/>
