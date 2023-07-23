@@ -115,7 +115,7 @@ function App() {
           <img src="https://ik.imagekit.io/hbzknb1hm/user.png?updatedAt=1690120983785" alt="" />
         </div>
         <div className={`footer-element ${index === 4 ? 'violet': ''}`} onClick={() => setIndex(4)}>
-          <img src="https://ik.imagekit.io/hbzknb1hm/search%20(1).png?updatedAt=1690121178744" alt="" />
+          <img src="https://ik.imagekit.io/hbzknb1hm/visoin.png?updatedAt=1690121666429" alt="" />
         </div>
       </footer>
       </>  
