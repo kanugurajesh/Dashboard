@@ -7,6 +7,7 @@ function App() {
   const [index, setIndex] = useState(0)
   return (
     <>
+    <div id="toplayer">
       <header>
         <div id='header'>
           <div>
@@ -20,12 +21,12 @@ function App() {
             </div>
           </div>
           <div id="metric">
-            <div>
+            <div id="metric1">
               <h3>Today</h3>
               <h1>$19,892</h1>
               <h4>Account Balance</h4>
             </div>
-            <div>
+            <div id='metric2'>
               <div>
                 <h2>$4,000</h2>
                 <h4>Year-to-Date</h4>
@@ -40,6 +41,7 @@ function App() {
         </div>
       </header>
       <main></main>
+      </div>
       <footer>
         <div className={`footer-element ${index === 0 ? 'violet': ''}`} onClick={() => setIndex(0)}>
           <img src="https://ik.imagekit.io/hbzknb1hm/home.png?updatedAt=1690089551208" alt="" />
