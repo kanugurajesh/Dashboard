@@ -215,3 +215,40 @@ main section {
     border-bottom: 2px solid rgba(192, 192, 192, 0.4);
     padding-bottom: 15px;
 }
+
+#main-section-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main-section-3-div div {
+    width: 20px;
+    height:10px;
+    border-radius: 40%;
+    background-color: #651fff;
+}
+
+#main-section-3 > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-section-3-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-section-3-div h5 {
+    opacity: 0.5;
+    font-size: 0.9rem;
+    margin-top: 5px;    
+}
+
+.main-section-3-div h4 {
+    font-size: 1.2rem;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}

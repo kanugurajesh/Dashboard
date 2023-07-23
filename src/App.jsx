@@ -76,8 +76,25 @@ function App() {
             </div>
           </div>
         </section>
-        <section>
+        <section id='main-section-3'>
           <h3>Contributions Overtime</h3>
+          <div>
+            <div className='main-section-3-div'>
+              <div></div>
+              <h5>Employer</h5>
+              <h4>$73,500</h4>
+            </div>
+            <div className='main-section-3-div'>
+              <div style={{opacity:'0.7'}}></div>
+              <h5>Employee</h5>
+              <h4>$52,500</h4>
+            </div>
+            <div className='main-section-3-div'>
+              <div style={{opacity:'0.4'}}></div>
+              <h5>Total Intrest</h5>
+              <h4>$244,313</h4>
+            </div>
+          </div>
         </section>
       </main>
       </div>
