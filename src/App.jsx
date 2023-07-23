@@ -40,19 +40,19 @@ function App() {
       </header>
       <main></main>
       <footer>
-        <div className='violet'>
+        <div className='violet footer-element'>
           <img src="https://ik.imagekit.io/hbzknb1hm/home.png?updatedAt=1690089551208" alt="" />
         </div>
-        <div>
+        <div className='footer-element'>
           <img src="https://ik.imagekit.io/hbzknb1hm/letter1.png?updatedAt=1690089551603" alt="" />
         </div>
-        <div>
+        <div className='footer-element'>
         <img src="https://ik.imagekit.io/hbzknb1hm/letter2.png?updatedAt=1690089551592" alt="" />
         </div>
-        <div>
+        <div className='footer-element'>
           <img src="https://ik.imagekit.io/hbzknb1hm/user.png?updatedAt=1690089551598" alt="" />
         </div>
-        <div>
+        <div className='footer-element'>
           <img src="https://ik.imagekit.io/hbzknb1hm/search.png?updatedAt=1690089551593" alt="" />
         </div>
       </footer>
