@@ -85,7 +85,7 @@ function App() {
               <h4>$52,500</h4>
             </div>
             <div className='main-section-3-div'>
-              <div style={{backgroundClip:'#4169E1'}}></div>
+              <div style={{backgroundColor:'#4169e1'}}></div>
               <h5>Total Intrest</h5>
               <h4>$244,313</h4>
             </div>

@@ -235,7 +235,7 @@ main section {
     width: 20px;
     height:10px;
     border-radius: 40%;
-    background-color: #651fff;
+    /* background-color: #651fff; */
 }
 
 #main-section-3 > div {
