@@ -28,11 +28,11 @@ function App() {
             </div>
             <div id='metric2'>
               <div>
-                <h2>$4,000</h2>
+                <h3>$4,000</h3>
                 <h4>Year-to-Date</h4>
               </div>
               <div>
-                <h2>$1,892</h2>
+                <h3>$1,892</h3>
                 <h4>Total Intrest</h4>
               </div>
             </div>
