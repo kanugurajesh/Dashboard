@@ -40,7 +40,7 @@ function App() {
       </header>
       <main></main>
       <footer>
-        <div>
+        <div className='violet'>
           <img src="https://ik.imagekit.io/hbzknb1hm/home.png?updatedAt=1690089551208" alt="" />
         </div>
         <div>

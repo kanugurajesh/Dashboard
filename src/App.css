@@ -61,11 +61,19 @@ footer div {
     box-sizing: border-box;
     width: 45px;
     height: 45px;
-    background-color: #651fff;
+    background-color: #cccccc;
     border-radius: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.violet {
+    background-color: #651fff;
+}
+
+.normal {
+    background-color: #cccccc;
 }
 
 footer img {
