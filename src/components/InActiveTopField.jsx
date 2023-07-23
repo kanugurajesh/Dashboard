@@ -25,7 +25,7 @@ function App() {
           </div>
         </section>
         <section id="main-inactive-2">
-          <Space wrap style={{display:'flex',justifyContent:'space-between'}}>
+          <Space wrap>
             <Progress type="circle" percent={75} strokeWidth={8} size={100}/>
             <Progress type="circle" percent={98} strokeWidth={8} size={100}/>
             <Progress type="circle" percent={80} strokeWidth={8} size={100}/>
