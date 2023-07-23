@@ -1,17 +1,20 @@
 .main-inactive-1 {
     display:flex;
     gap: 20px;
+    padding: 15px 0;
 }
 
 #main-2 {
     width: 100vw;
     position: absolute;
     top:70px;
+    left:0;
     display:flex;
     flex-direction: column;
     gap: 0;
     overflow-y: scroll;
     height: 80vh;
+    padding: 0;
 }
 
 #main-inactive h4{
@@ -39,5 +42,18 @@
 
 .main-inactive-1 {
     border-bottom: 1px solid #e0e0e0;
-    padding: 12px 0;
+}
+
+#main-inactive-3 h3{
+    line-height: 1.5;
+    font-size: 1.1rem;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+#main-inactive-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #e0e0e0;
 }

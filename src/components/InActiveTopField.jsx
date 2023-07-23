@@ -3,6 +3,7 @@ import { Progress, Space } from 'antd';
 import { Slider } from 'antd';
 import '../Hide.css';
 import { green } from '@mui/material/colors';
+
 function App() {
   return (
     <>
@@ -33,11 +34,17 @@ function App() {
           </Space>
         </section>
         <section id="main-inactive-3">
-        <h3>Retirement Strategy</h3>
-        <div>
-            <h4>Employee Contribution</h4>
-            <Slider defaultValue={30}/>
-        </div>
+          <h3>Retirement Strategy</h3>
+          <div>
+              <h4>Employee Contribution</h4>
+              <Slider defaultValue={30}/>
+          </div>
+          <div>
+              <h4>Retirement Age</h4>
+              <Slider defaultValue={30}/>
+          </div>
+          <h4>Employee Contribution</h4>
+          <h4>Intrest Rate</h4>
         </section>
       </main>
     </>
