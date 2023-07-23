@@ -1,5 +1,6 @@
 import { CaretDownOutlined} from '@ant-design/icons';
 import { Progress, Space } from 'antd';
+import { Slider } from 'antd';
 import '../Hide.css';
 import { green } from '@mui/material/colors';
 function App() {
