@@ -60,6 +60,12 @@
     margin-top: 20px;
 }
 
+#main-inactive-3 > div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 #update {
     width: 100vw;
     height: 60px;
