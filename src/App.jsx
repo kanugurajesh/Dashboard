@@ -6,13 +6,14 @@ import BarField from './components/BarField'
 
 function App() {
   const [index, setIndex] = useState(0)
+  const [active, setActive] = useState(false)
   return (
     <>
     <div id="toplayer">
       <header>
         <div id='header'>
           <div>
-          <BellOutlined style = {{fontSize: '26px'}} id='notification'/>
+          {active ? <AntDesignOutlined onClick={() => setActive(!active)} style={{fontSize:'30px',color:'#fff'}}/> : <HomeOutlined onClick={() => setActive(!active)} style={{fontSize:'30px',color:'#fff'}}/>}
           </div>
           <div id="badge">
             <Avatar alt="Remy Sharp" src="https://ik.imagekit.io/hbzknb1hm/rajesh1.jpeg?updatedAt=1687880887870" style={{width:'90px',height:'90px'}}/>
