@@ -5,29 +5,27 @@
 }
 
 #root {
-    padding: 25px;
     width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-family: 'Inter', sans-serif;
+}
+
+header {
+    width: 100vw;
+    padding: 25px;
 }
 
 #notification {
     position: absolute;
     top: 25px;
     right: 25px;
-    margin-bottom: 20px;
 }
 
 #badge {
     margin-top: 70px;
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 #badge h1 {
@@ -48,12 +46,11 @@
 }
 
 footer {
-    width: 100%;
+    width: 100vw;
     position: absolute;
     bottom: 0;
     display: flex;
-    justify-content: space-around;
-    gap: 15px;
+    justify-content: space-between;
     padding:25px;
 }
 
