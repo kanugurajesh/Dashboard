@@ -261,3 +261,12 @@ main section {
     letter-spacing: 1px;
     font-family: 'Roboto', sans-serif;
 }
+
+#main-section-4 {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
