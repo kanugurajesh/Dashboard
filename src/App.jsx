@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { BellOutlined, AntDesignOutlined, HomeOutlined} from '@ant-design/icons'
 import { Avatar } from '@mui/material'
 import './App.css'
+import BarField from './components/BarField'
 
 function App() {
   const [index, setIndex] = useState(0)
@@ -95,6 +96,7 @@ function App() {
               <h4>$244,313</h4>
             </div>
           </div>
+          <BarField/>
         </section>
       </main>
       </div>
@@ -119,4 +121,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
