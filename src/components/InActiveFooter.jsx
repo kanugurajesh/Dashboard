@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div>
+    <div id="inactive-footer">
         Update
     </div>
   )

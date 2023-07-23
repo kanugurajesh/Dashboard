@@ -2,6 +2,7 @@ import { CaretDownOutlined} from '@ant-design/icons';
 import { Progress, Space } from 'antd';
 
 import '../Hide.css';
+import { green } from '@mui/material/colors';
 function App() {
   return (
     <>
@@ -26,9 +27,9 @@ function App() {
         </section>
         <section id="main-inactive-2">
           <Space wrap style={{display:'flex',justifyContent:'space-between'}}>
-            <Progress type="circle" percent={75} strokeWidth={8} size={90}/>
-            <Progress type="circle" percent={98} strokeWidth={8} size={90}/>
-            <Progress type="circle" percent={80} strokeWidth={8} size={90}/>
+            <Progress type="circle" percent={75} strokeWidth={8} size={90} strokeColor={'green'}/>
+            <Progress type="circle" percent={98} strokeWidth={8} size={90} strokeColor={'green'}/>
+            <Progress type="circle" percent={80} strokeWidth={8} size={90} strokeColor={'green'}/>
           </Space>
         </section>
       </main>
