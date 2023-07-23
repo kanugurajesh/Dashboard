@@ -38,6 +38,24 @@ function App() {
             </div>
             <button>I want to...</button>
           </div>
+          <div id='transaction'>
+            <h2>Recent Transactions</h2>
+            <div className="transaction">
+              <h3>2020-08-07</h3>
+              <h3>Withdrawal Transfer to Bank-XXX11</h3>
+              <hr />
+            </div>
+            <div className="transaction">
+              <h3>2020-08-07</h3>
+              <h3>Withdrawal Transfer to Bank-XXX11</h3>
+              <hr />
+            </div>
+            <div className="transaction">
+              <h3>2020-08-07</h3>
+              <h3>Withdrawal Transfer to Bank-XXX11</h3>
+              <hr />
+            </div>
+          </div>
         </div>
       </header>
       <main></main>
