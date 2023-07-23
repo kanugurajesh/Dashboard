@@ -130,3 +130,11 @@ footer img {
     font-weight: 600;
     cursor: pointer;
 }
+
+#metric h4 {
+    font-size: 0.8rem;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    opacity: 0.5;
+}
