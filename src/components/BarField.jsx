@@ -34,7 +34,7 @@ const option={
     },
     title:{
       display:true,
-      text:'Stacked bar chart'
+      text:''
     }
   }
 }
