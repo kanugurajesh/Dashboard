@@ -41,19 +41,19 @@ function App() {
       <main></main>
       <footer>
         <div>
-          <img src="./assets/home.png" alt="" />
+          <img src="https://ik.imagekit.io/hbzknb1hm/home.png?updatedAt=1690089551208" alt="" />
         </div>
         <div>
-          <img src="./assets/letter1.png" alt="" />
+          <img src="https://ik.imagekit.io/hbzknb1hm/letter1.png?updatedAt=1690089551603" alt="" />
         </div>
         <div>
-        <img src="./assets/letter2.png" alt="" />
+        <img src="https://ik.imagekit.io/hbzknb1hm/letter2.png?updatedAt=1690089551592" alt="" />
         </div>
         <div>
-          <img src="./assets/user.png" alt="" />
+          <img src="https://ik.imagekit.io/hbzknb1hm/user.png?updatedAt=1690089551598" alt="" />
         </div>
         <div>
-          <img src="./assets/search.png" alt="" />
+          <img src="https://ik.imagekit.io/hbzknb1hm/search.png?updatedAt=1690089551593" alt="" />
         </div>
       </footer>
       </>  
