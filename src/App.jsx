@@ -41,19 +41,19 @@ function App() {
       <main></main>
       <footer>
         <div>
-          <img src="/public/home.png" alt="" />
+          <img src="./assets/home.png" alt="" />
         </div>
         <div>
-          <img src="/public/letter1.png" alt="" />
+          <img src="./assets/letter1.png" alt="" />
         </div>
         <div>
-        <img src="/public/letter2.png" alt="" />
+        <img src="./assets/letter2.png" alt="" />
         </div>
         <div>
-          <img src="/public/user.png" alt="" />
+          <img src="./assets/user.png" alt="" />
         </div>
         <div>
-          <img src="/public/search.png" alt="" />
+          <img src="./assets/search.png" alt="" />
         </div>
       </footer>
       </>  
