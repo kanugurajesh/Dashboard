@@ -14,3 +14,7 @@ Welcome to the Dashboard—an elegant platform meticulously crafted to showcase 
 - **Revenue Analytics:** Gain insights into your developer revenue in a clear and organized fashion.
 - **Skill Showcase:** Present your abilities in a visually appealing and professional manner.
 - **Sleek UI:** Enjoy a sleek and modern user interface for an enhanced user experience.
+
+## Demo
+
+![Rajesh Dashboard - Google Chrome 2023-12-03 11-48-34](https://github.com/kanugurajesh/Dashboard/assets/120458029/b2f0d9d1-c8c9-40a1-be7b-ae4d1ff876ba)
